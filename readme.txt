@@ -41,3 +41,12 @@ Node Practice
 
 6. helloweb-ex01: 웹 애플리케이션 만들어 보기 (express 프레임워크 x)
 7. helloweb-ex02: 웹 애플리케이션 만들어 보기 (express 프레임워크 o)
+    // npm i express
+    // npm i ejs
+    // npm i -D nodemon
+    // package.json
+        >>   "scripts": {
+                "start": "node index.js",           // npm start
+                "debug": "nodemon index.js"         // npm run debug
+            },
+    
